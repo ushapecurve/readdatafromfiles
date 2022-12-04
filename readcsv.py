@@ -1,5 +1,5 @@
 def readcsv():
-    myfile = open('InputData.txt','r') 
+    myfile = open('inputdata.txt','r') 
     #We shall open the txt file for reading data
     
     # we create a list. List is dynamically allocated array.

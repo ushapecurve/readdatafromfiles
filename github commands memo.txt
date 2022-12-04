@@ -1,0 +1,8 @@
+$ git remote add origin https://github.com/ushapecurve/readdatafromfiles.git
+
+
+To add remote repository.
+
+git push origin master.
+
+To push your project into remote repository.
