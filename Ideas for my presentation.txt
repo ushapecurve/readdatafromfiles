@@ -1,0 +1,19 @@
+Explain modules that I used.
+What is pandas, numpy, matplotlib.
+
+Eplain pandas datastructures, that I used
+
+
+
+Dataframe has descriptive statistics:
+       Temperature
+count     6.000000
+mean    398.280200
+std     451.056305
+min      43.166000
+25%      74.620000
+50%     166.036000
+75%     765.358000
+max    1005.163200
+
+Explain the ideas of descriptive statistics, that I used in this project.

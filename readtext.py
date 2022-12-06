@@ -1,4 +1,4 @@
-def readcsv():
+def readtextfile():
     myfile = open('inputdata.txt','r') 
     #We shall open the txt file for reading data
     
