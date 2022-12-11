@@ -3,8 +3,9 @@ What is pandas, numpy, matplotlib.
 
 Eplain pandas datastructures, that I used
 
+use pandas.ReadCSV() to read from csv file.
 
-
+Explain
 Dataframe has descriptive statistics:
        Temperature
 count     6.000000
