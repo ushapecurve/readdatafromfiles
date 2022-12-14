@@ -1,0 +1,87 @@
+001
+My program does reading numerical data from different types of files.
+And program calculates descriptive statistics from the number sequence that was read from file.
+In my project I used Spider IDE. It is very good free open-source IDE.
+Look at the beginning of my code. I created 2 python mudules.
+One reads data from text file.
+Another reads data from database file.
+Functions that read data are separated into different python modules.
+We are importing these functions here.
+
+002
+Look at the files of the project.
+This is the txt file. This is the database file.
+
+003
+This is the text file with numbers. A string can contain any number of coma separated integers. (Q: what if we write float in there? What if we remove spaces between numbers?)
+
+
+004
+This is the content of the database. It is simple table. 
+My program will read data from the second column and find out statastical data from temperature readings. 
+Dtatabase consists from records. look at the rows of database.
+Look at the record with ID=2. Recored was made 11-12 at 20:31. Tempeataure was 942.16 Hummidity was 4.8742 E+11
+
+005
+I created SQL scripts for creating and populating database.
+These are text files with .sql file extensions.
+
+006
+Look at one of those scropts for creating the table.
+Script is open the MS SSMS.  You can install SQL Server 2019 Developer Edition for free to use it at home. It has full features of production DBMS. 
+
+007.
+OK. I created the table. using MS SQL Server 2019.
+How can I acess it with a python program?
+Fist of all We need to make sure that svice is running in Windows_10_OS. There are many srvices in windows. One of them is SQL Srever providing acess for database. And you can use Front End tool like MS_SSMS or acess DB with other program.
+
+008.
+Next step is to install ODBC driver in Windows 10.
+And configure the rdiver. Change the driver settings. ODBC stands for Open Database Connectivity.
+
+009
+And make sure that the driver is able to connect to the database.
+Look here. Test is sucesfull.
+
+010
+Look here at my program. There is connection string. Program makes connection with the driver using connection string.
+Program creates cursor object.
+Cursor executes SQL Query. 
+
+011.
+We creating a list.
+And cursor object keeps inside each row of the database table.
+Using for loop we itterate through each row of the table and append the second cell in a row. Append it to the list. 
+
+012.
+Look here. We append to the list each cell of the second row.
+
+013
+Plots are seved in .png graphic files by using pyplot library.
+Here you see calculated descriptive statistics of the number set.
+
+014.
+In my progects I used, Numpy  Panadas, and Matplotlib libraries.
+NumPy. 
+Stands for Numerical python.Python has build in List datastructure.
+There is no build in array datastructure in python. Because everything is an object. We can acheive 50x fater speeds with NumPy.  It is used in datascience. MumPy has build in algoryhms for working with arrays. It is imlemented using C++ and C languages.It is way faster than python biuld in datastructures. In python storing many items in memory in lists has a huge memory complexity. NumPy array is stored in a continuous block of memory.
+Pandas
+Library for data analysys and data manipulation. It relays on NumPy and C programming language.
+It is used to work with multidymentional arrays and matrixes.
+Used to work with datasets. And it is used in ML and AI. Beacuse they process huge datasets in ML and AI.
+Matplotlib
+It is plotting library. It can be combied with Numpy very efficenttly.
+
+
+ 
+
+
+
+015. 
+My project os posted in github and it's publically awailable.
+There are many comments so that everybody would understand what the code does. Everybody is including muself a few moth later if I look at the code.
+
+
+
+
+
